@@ -1,0 +1,222 @@
+.f12-panel {
+  border        : 1px solid #edeaea;
+  width         : auto;
+  max-width     : 90%;
+  margin-bottom : 20px;
+}
+
+.f12-secure-login .f12-panel .f12-panel {
+  max-width : 100% !important;
+}
+
+.f12-panel__header + .f12-panel {
+  border-top : 0;
+}
+
+.f12-panel__header h2 {
+  padding : 0;
+  margin  : 0;
+}
+
+#changeit {
+  float : left;
+}
+
+.f12-panel__header {
+  background-color   : #fff;
+  padding            : 10px;
+  box-sizing         : border-box;
+  -moz-box-sizing    : border-box;
+  -webkit-box-sizing : border-box;
+  border-bottom      : 1px solid #edeaea;
+}
+
+.f12-panel__content {
+  background-color : #f1f1f1;
+}
+
+.f12-table {
+  background-color : #fff;
+  width            : 100%;
+  border-spacing   : 0;
+}
+
+.f12-table td.label {
+  background-color : #F9F9F9;
+}
+
+.f12-table th {
+  padding : 20px 10px !important;
+}
+
+.f12-table th p {
+  font-weight : normal;
+}
+
+.f12-table th,
+.f12-table td {
+  padding            : 10px;
+  box-sizing         : border-box;
+  -moz-box-sizing    : border-box;
+  -webkit-box-sizing : border-box;
+  vertical-align     : top;
+  text-align         : left;
+}
+
+.f12-table tr th:first-child,
+.f12-table tr td:first-child {
+  border-left : 0 !important;
+}
+
+.f12-table tr th,
+.f12-table tr td {
+  border-bottom : 1px solid #edeaea;
+  border-left   : 1px solid #edeaea;
+}
+
+.f12-table select {
+  width      : 100%;
+  border     : 1px solid #edeaea;
+  box-shadow : none;
+}
+
+.f12-table input[type="text"] {
+  width      : 100%;
+  border     : 1px solid #edeaea;
+  box-shadow : none;
+  padding    : 7px 7px;
+}
+
+.f12-table p {
+  margin-top : 0;
+}
+
+.f12-table label {
+  font-weight : bold;
+}
+
+.f12l-image-galerie {
+  display         : flex;
+  flex-flow       : row wrap;
+  max-width       : 100%;
+  justify-content : flex-start;
+  align-content   : flex-start;
+}
+
+.f12l-image-galerie > div {
+  flex    : 0 1 0;
+  padding : 10px;
+}
+
+.f12l-image-galerie > div img {
+  max-width : none;
+  min-width : 200px;
+}
+
+/** Custom */
+.post-type-f12cl_field #postbox-container-2 .postbox .inside,
+.post-type-f12cl_commercial #postbox-container-2 .postbox .inside,
+#f12cl_meta_box .inside,
+#f12r_meta_box_rewards_content .inside,
+#f12m_meta_box_membership_content .inside,
+#f12l_commerical_metabox_image .inside,
+#f12l_commerical_metabox_energy .inside,
+#f12l_commerical_metabox_property .inside,
+#f12l_commerical_metabox_price .inside,
+#f12l_commercial_metabox_core .inside,
+#f12l_commerical_metabox_address .inside,
+#f12_meta_box_history_content .inside,
+#f12_newsletter_meta_box .inside,
+#f12s_meta_box_slider_type_a .inside,
+#f12s_meta_box_slider_type_b .inside,
+#f12s_meta_box_slider_image .inside,
+#f12s_meta_box_slider_content .inside,
+#f12r_reference_meta_box_group .inside,
+#f12d_meta .inside,
+#f12d_generic_meta .inside,
+#f12cl_request_meta_box .inside,
+#f12r_meta_box_reference_content .inside,
+#f12l_commercial_metabox .inside {
+  padding : 0 !important;
+  margin  : 0 !important;
+}
+
+/***************************************************************
+ * Admin Sidebar & Content
+ ***************************************************************/
+.f12-admin {
+  display   : flex;
+  flex-flow : row nowrap;
+  width     : 100%;
+}
+
+.f12-admin-sidebar {
+  flex : 1 0 15%;
+}
+
+.f12-admin-sidebar ul li,
+.f12-admin-sidebar ul {
+  padding : 0;
+  margin  : 0;
+}
+
+.f12-admin-sidebar > ul {
+  border : 1px solid #edeaea;
+  width  : 90%;
+}
+
+.f12-admin-sidebar > ul > li > a {
+  background-color : #fff;
+  padding          : 10px;
+  font-weight      : bold;
+  display          : block;
+  text-decoration  : none;
+  color            : #444;
+}
+
+.f12-admin-sidebar > ul > li a.active {
+  background-color : #0073aa !important;
+  color            : #fff !important;
+}
+
+.f12-admin-sidebar > ul > li a:hover {
+  background-color : #eee;
+}
+
+.f12-admin-sidebar > ul > li li a {
+  background-color : #f9f9f9;
+  padding          : 7px 20px;
+  display          : block;
+  text-decoration  : none;
+  color            : #444;
+}
+
+.f12-admin-sidebar > ul > li > ul > li li a {
+  font-size    : 12px;
+  padding-left : 40px;
+}
+
+.f12-admin-content {
+  flex : 1 1 85%;
+}
+
+.f12-admin-content > div {
+  display : none;
+}
+
+.f12-admin-content > div.active {
+  display : block !important;
+}
+
+.f12-admin input[type="submit"]:hover {
+  background-color : #00a0d2;
+  border           : 1px solid #00a0d2;
+}
+
+.f12-admin input[type="submit"] {
+  background-color : #0085ba;
+  color            : #fff;
+  border           : 1px solid #0085ba;
+  padding          : 10px 10px;
+  cursor           : pointer;
+}
